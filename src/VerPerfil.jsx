@@ -293,7 +293,7 @@ export default function VerPerfil() {
 
       {/* 3. TABS DE NAVEGAÇÃO DO PERFIL */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8">
-        <div className="border-b border-slate-200 flex space-x-8 overflow-x-auto no-scrollbar">
+        <div className="border-b border-slate-200 space-x-8 grid grid-cols-1 md:grid-cols-3 gap-y-3 ">
           <button
             onClick={() => setActiveTab('obras')}
             className={`pb-4 text-sm font-bold flex items-center gap-2 border-b-2 transition ${
