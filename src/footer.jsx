@@ -21,7 +21,7 @@ export default function Footer() {
           <div className="space-y-4">
             <div className="flex items-center gap-3">
               <img 
-                src="src/assets/icone.png" 
+                src="public/icone.png" 
                 alt="Logótipo Universidade Licungo" 
                 className="h-12 w-auto bg-white p-1 rounded-lg object-contain shadow-sm"
               />

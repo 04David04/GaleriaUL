@@ -30,7 +30,7 @@ export default function Header() {
           {/* 1. Logótipo com redirecionamento para a página principal */}
           <Link to="/" className="flex items-center gap-2 sm:gap-3 shrink-0">
             <img 
-              src="src/assets/icone.png"
+              src="public/icone.png"
               alt="Logótipo Universidade Licungo" 
               className="h-10 sm:h-12 w-auto object-contain"
             />
